@@ -1,6 +1,6 @@
 ## Few Shot Regression of Periodic and Basic Polynomial Functions using MAML and Reptile Methods
 
-Humans adapt to new environments and information with only a few samples. Future deep-learning models will adapt and learn with only a few samples. MAML and Reptile are gradient based meta-learning algorithms which initialize parameters that are highly sensitive to changes in tasks. We examine the evolution of changes in the sensitive parameters over time and its relative performance to unseen takes.  
+Humans adapt to new environments and information with only a few samples. Future deep-learning models will adapt and learn from only a few samples. MAML and Reptile are gradient based meta-learning algorithms which initialize parameters that are highly sensitive to changes in tasks. We examine the evolution of changes in the sensitive parameters over time and its relative performance to unseen takes.  
 
 ### Formulation of Task: 
 ###### Added an additional transformation to the original formulation of the regression task from paper Model Agnostic Meta Learning.  
