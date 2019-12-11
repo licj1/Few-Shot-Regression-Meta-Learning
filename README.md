@@ -19,7 +19,11 @@ python meta.py --mode=reptile --n_shot=20 --train_func=linear --logdir=logs/rept
 ```
 
 #### TensorBoard Logs Viewing 
-###### inclued logs of Maml and Reptile with default parameters
+##### inclued logs of Maml and Reptile with default parameters
 ``` bash
 tensorboard --logdir=logs/maml
 ```
+#### Retile Traning Loss and Pre-Trainied Wave every 1000 iterations
+![Alt Text](https://github.com/vinit97/Few-Shot-Regression-Meta-Learning/blob/master/logs/train_reptile.png)
+#### Example of Test Run
+![Alt Text](https://github.com/vinit97/Few-Shot-Regression-Meta-Learning/blob/master/logs/test_reptile.png)
