@@ -19,9 +19,9 @@ python meta.py --mode=maml --n_shot=5 --train_func=cos --logdir=logs/maml_5
 ``` bash
 python meta.py --mode=reptile --n_shot=10 --train_func=sin --logdir=logs/reptile_20
 ```
-#### 20-Shot Linear Function Reptile
+#### 20-Shot Sin Function Reptile
 ``` bash
-python meta.py --mode=reptile --n_shot=20 --train_func=linear --logdir=logs/reptile_linear_20
+python meta.py --mode=reptile --n_shot=20 --train_func=sin --logdir=logs/reptile_linear_20
 ```
 
 #### TensorBoard Logs Viewing 
